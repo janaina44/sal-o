@@ -1,0 +1,19 @@
+:root {
+  /* 🎨 Paleta de cores */
+  --color-primary: #d63384;   /* rosa elegante */
+  --color-secondary: #6c757d; /* cinza neutro */
+  --color-background: #fff;
+  --color-text: #333;
+   --color-primary: #520e17; /* cor principal */
+  --color-secondary: #9b4d96; /* cor no hover */
+  --border-radius: 8px;
+  --spacing-section: 4rem;
+
+  /* ✍️ Fontes */
+  --font-sans: 'Montserrat', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+
+  /* 📏 Espaçamentos */
+  --spacing-section: 4rem;
+  --border-radius: 12px;
+}

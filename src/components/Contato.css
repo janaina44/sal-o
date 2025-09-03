@@ -1,0 +1,97 @@
+.contato {
+  padding: 6rem 2rem;
+  background: linear-gradient(to right, #eee3e3, #fbeeee);
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contato__titulo {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  font-family: 'Great Vibes', cursive;
+  color: #5a3333;
+}
+
+.contato__texto {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  color: #5a3333;
+  margin-bottom: 2rem;
+}
+
+.contato__redes {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.contato__redes .rede {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 1.8rem;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  color: #fff;
+}
+
+/* Cores originais das redes */
+.rede.instagram {
+  background: #E1306C; /* rosa pink Instagram */
+}
+
+.rede.facebook {
+  background: #1877F2; /* azul Facebook */
+}
+
+.rede.tiktok {
+  background: #000000; /* preto TikTok */
+}
+
+/* Hover para destaque (leve aumento e brilho) */
+.contato__redes .rede:hover {
+  transform: scale(1.15);
+  filter: brightness(1.2);
+}
+
+.btn-whatsapp {
+  display: inline-block;
+  background: #25D366;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.btn-whatsapp:hover {
+  background: #1ebe5d;
+  transform: scale(1.05);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .contato__titulo {
+    font-size: 2.5rem;
+  }
+
+  .contato__texto {
+    font-size: 1.1rem;
+  }
+
+  .contato__redes .rede {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+  }
+
+  .btn-whatsapp {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+  }
+}
