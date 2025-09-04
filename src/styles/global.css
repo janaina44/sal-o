@@ -29,3 +29,43 @@ h1, h2, h3, h4 {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+/* Variáveis e breakpoints */
+:root {
+  --color-primary: #b82e70;
+  --color-secondary: #e2cdd0;
+  --color-background: #fafafa;
+  --border-radius: 10px;
+  --font-serif: 'Playfair Display', serif;
+  --font-sans: 'Roboto', sans-serif;
+
+  --breakpoint-mobile: 480px;
+  --breakpoint-tablet: 768px;
+  --breakpoint-desktop: 1200px;
+}
+
+/* Reset global */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  background: var(--color-background);
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

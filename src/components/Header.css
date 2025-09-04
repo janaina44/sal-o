@@ -1,8 +1,8 @@
 .header {
-  background: linear-gradient(to right, #5a3333, #e2cdd0);
-  padding: 1rem 0;
+  background: linear-gradient(to right, #1f1717, #e5afaf);
+  padding: 0rem 0;
   border-bottom: 1px solid #f5f2f2;
-  position: static;
+  position: sticky;
   top: 0;
   width: 100%;
   z-index: 1000;
@@ -17,7 +17,12 @@
 
 /* Logo */
 .logo {
-  height: 80px;
+  height: 100px;
+}
+
+
+.logo:hover {
+  transform: scale(1.5); /* leve aumento ao passar o mouse */
 }
 
 /* Menu padrão (desktop) */
@@ -35,7 +40,7 @@
 }
 
 .nav__list a:hover {
-  color: var(--color-primary);
+  color: white;
 }
 
 /* Botão hamburguer */
