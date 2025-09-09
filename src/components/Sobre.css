@@ -23,6 +23,7 @@
 .sobre__text p {
   margin-bottom: 1rem;
   font-size: 1.1rem;
+  text-align: justify;
 }
 
 .sobre__image {

@@ -7,7 +7,7 @@
 .servicos__titulo {
   font-size: 2rem;
   margin-bottom: 2rem;
-  color: var(--color-primary);
+  color: rgb(202, 48, 125);
 }
 
 .servicos__grid {

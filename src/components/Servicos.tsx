@@ -47,7 +47,7 @@ function Servicos() {
   return (
     <section className="servicos" id="servicos">
       <div className="container">
-        <h2 className="servicos__titulo">Nossos Serviços</h2>
+        <h2 className="servicos__titulo">Serviços</h2>
 
         <div className="servicos__grid">
           {servicos.map((servico, index) => (
