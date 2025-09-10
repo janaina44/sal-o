@@ -19,12 +19,12 @@ function Pacotes() {
             </p>
            
             <a
-              href="https://wa.me/554498616334?text=Olá! Gostaria de saber mais sobre o Pacote Noiva."
+              href="https://wa.me/554498616334?text=Olá! Gostaria de saber mais sobre o Pacote Dia dela."
               target="_blank"
               rel="noopener noreferrer"
               className="btn"
             >
-              Reservar
+              Agendar
             </a>
           </div>
 
@@ -39,12 +39,12 @@ function Pacotes() {
             </p>
             
             <a
-              href="https://wa.me/554498616334?text=Olá! Gostaria de saber mais sobre o Pacote Dia da Beleza."
+              href="https://wa.me/554498616334?text=Olá! Gostaria de saber mais sobre o Pacote mensal."
               target="_blank"
               rel="noopener noreferrer"
               className="btn"
             >
-              Reservar
+              Agendar
             </a>
           </div>
         </div>

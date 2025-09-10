@@ -1,7 +1,7 @@
 .sobre {
-  padding-top: 1rem;
-  margin-bottom: 1rem;
-  background-color: antiquewhite;
+  padding-top: 0rem;
+  margin-bottom: 0rem;
+  background-color: rgb(250, 215, 215);
 }
 .container {
   padding-top: 0px;
@@ -33,6 +33,7 @@
 
 .sobre__image {
   flex: 1;
+  margin-bottom: 2rem;
 }
 
 .sobre__image img {
