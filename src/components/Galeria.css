@@ -1,5 +1,5 @@
 .galeria {
-  padding: var(--spacing-section) 0;
+  padding: 1rem 0 4rem 0;
   background: #f7e3e39f;
   text-align: center;
 }
@@ -10,10 +10,12 @@
   color: var(--color-primary);
 }
 
+/* Grid ajustada para imagens menores */
 .galeria__grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 200px)); /* colunas menores */
+  gap: 1rem;
+  justify-content: center; /* centraliza a grid */
 }
 
 .galeria__item {
@@ -21,11 +23,14 @@
   border-radius: var(--border-radius);
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
+  width: 100%; /* garante que cada item ocupe a coluna */
+  max-width: 200px; /* limita o tamanho máximo do card */
+  margin: 0 auto; /* centraliza o item na grid */
 }
 
 .galeria__item img {
-  width: 100%;
-  height: 100%;
+  width: 300px;
+  height: 300px; /* diminui altura da imagem */
   object-fit: cover;
   display: block;
   transition: transform 0.3s ease;
@@ -34,4 +39,15 @@
 /* Efeito hover */
 .galeria__item:hover img {
   transform: scale(1.05);
+}
+
+/* Responsivo para celular */
+@media (max-width: 480px) {
+  .galeria__grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* colunas menores no celular */
+  }
+
+  .galeria__item img {
+    height: 120px; /* imagens ainda menores no celular */
+  }
 }

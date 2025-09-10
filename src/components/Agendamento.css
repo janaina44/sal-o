@@ -79,7 +79,7 @@
 }
 
 .form button:hover {
-  background: var(--color-secondary);
+  background: rgb(211, 82, 114);
   transform: scale(1.03);
 }
 

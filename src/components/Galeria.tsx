@@ -9,6 +9,8 @@ const imagens = [
   "/imagens/galeria/foto6.jpg",
   "/imagens/galeria/foto7.jpg",
   "/imagens/galeria/foto8.jpg",
+  "/imagens/galeria/foto9.jpg",
+  "/imagens/galeria/foto10.jpg",
 ];
 
 function Galeria() {
