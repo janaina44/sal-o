@@ -24,13 +24,13 @@
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
   width: 100%; /* garante que cada item ocupe a coluna */
-  max-width: 300px; /* limita o tamanho máximo do card */
+  max-width: 400px; /* limita o tamanho máximo do card */
   margin: 0 auto; /* centraliza o item na grid */
 }
 
 .galeria__item img {
-  width: 300px;
-  height: 300px; /* diminui altura da imagem */
+  width: 400px;
+  height: 400px; /* diminui altura da imagem */
   object-fit: cover;
   display: block;
   transition: transform 0.3s ease;
@@ -48,6 +48,6 @@
   }
 
   .galeria__item img {
-    height: 300px; /* imagens ainda menores no celular */
+    height: 400px; /* imagens ainda menores no celular */
   }
 }
