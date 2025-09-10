@@ -1,7 +1,9 @@
 .sobre {
-  padding: var(--spacing-section) 0;
+  padding-top: 0.2rem;
 }
-
+.container {
+  padding-top: 0px;
+}
 .sobre__content {
   display: flex;
   align-items: center;
@@ -17,6 +19,7 @@
   font-size: 2rem;
   margin-bottom: 1rem;
   color: var(--color-primary);
+  margin-top: 0;
 }
 
 .sobre__text p {
